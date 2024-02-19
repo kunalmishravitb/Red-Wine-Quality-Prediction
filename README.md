@@ -31,9 +31,13 @@ Output variable (based on sensory data):
 
 ## Steps to Run:
 💿 Installing
-1. Environment setup.
+1. Environment setup
 ```
-conda create -p venv python==3.9 -y
+conda create -p venv python==3.9.18 -y
+```
+OR
+```
+conda create -p venv python==3.9.18 ipykernel -y
 ```
 ```
 conda activate venv/
