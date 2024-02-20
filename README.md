@@ -35,6 +35,9 @@ Output variable (based on sensory data):
 ```
 conda create -p venv python==3.9.18 -y
 ```
+```
+conda activate venv/
+````
 OR
 ```
 conda create -p venv python==3.9.18 ipykernel -y
