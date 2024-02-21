@@ -1,4 +1,4 @@
-# 🍷🍇🤓🍾 Red Wine Quality Prediction Project
+# 🍷🍇 Red Wine Quality Prediction Project
 
 ## Overview
 This project aims to predict the quality of red wine based on various physicochemical features using machine learning techniques. The quality of wine is a crucial aspect for producers and consumers alike, and being able to predict it accurately can streamline production processes and guide consumer choices.
@@ -68,12 +68,15 @@ pip install -r requirements.txt
 ```
 python app.py
 ```
-4. Open your browser and hit the url below one by one
+4. Open your browser and hit the url given below
 ```
-http://127.0.0.1:5000/
+http://127.0.0.1:8080/
 ```
 ```
-http://127.0.0.1:5000/predictdata
+http://127.0.0.1:8080/train
+```
+```
+http://127.0.0.1:8080/predict
 ```
 
 
@@ -82,6 +85,7 @@ http://127.0.0.1:5000/predictdata
 - flask
 - Python 3.9
 - Machine learning
+- Jupyter Notebook
 - Scikit learn
 - 🏦 Industrial Use Cases
 
