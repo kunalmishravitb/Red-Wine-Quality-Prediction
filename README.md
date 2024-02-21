@@ -14,22 +14,35 @@ These datasets can be viewed as classification or regression tasks. The classes 
 
 **Content:**
 Input variables (based on physicochemical tests):
-- 1 - fixed acidity
-- 2 - volatile acidity
-- 3 - citric acid
-- 4 - residual sugar
-- 5 - chlorides
-- 6 - free sulfur dioxide
-- 7 - total sulfur dioxide
-- 8 - density
-- 9 - pH
-- 10 - sulphates
-- 11 - alcohol
+1. fixed acidity
+2. volatile acidity
+3. citric acid
+4. residual sugar
+5. chlorides
+6. free sulfur dioxide
+7. total sulfur dioxide
+8. density
+9. pH
+10. sulphates
+11. alcohol
 Output variable (based on sensory data):
-- 12 - quality (score between 0 and 10)
+12. quality (score between 0 and 10)
 
 
-## Steps to Run:
+## Workflows
+
+1. update config.yaml
+2. update schema.yaml
+3. update params.yaml
+4. update the entity 
+5. update the configuration manager in src config
+6. update the components
+7. update the pipeline
+8. update the main.py
+9. update the app.py
+
+
+## Steps to Run
 💿 Installing
 1. Environment setup
 ```
