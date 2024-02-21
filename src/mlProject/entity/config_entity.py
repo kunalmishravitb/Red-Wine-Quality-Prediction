@@ -34,4 +34,11 @@ class ModelTrainerConfig:
     target_column: str # loading data from schema.yaml
 
 
-
+@dataclass(frozen=True) # frozen=True means it will not take any other variable here
+class ModelEvaluationConfig:
+    root_dir: Path
+    test_data_path: Path
+    model_path: Path
+    all_params: dict
+    metric_file_name: Path
+    target_column: str
