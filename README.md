@@ -82,9 +82,12 @@ http://127.0.0.1:8080/predict
 
 
 🔧 Built with
-- flask
+- Flask
 - Python 3.9
 - Machine learning
+- Pandas
+- Matplotlib / Seaborn
+- Pyyaml
 - Jupyter Notebook
 - Scikit learn
 - 🏦 Industrial Use Cases

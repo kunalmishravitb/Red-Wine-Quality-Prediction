@@ -25,7 +25,8 @@ list_of_files=[
     "requirements.txt",
     "setup.py",
     "research/trials.ipynb",
-    "templates/index.html"
+    "templates/index.html",
+    "templates/results.html"
 ]
 
 for filepath in list_of_files:
@@ -44,4 +45,3 @@ for filepath in list_of_files:
             logging.info(f"Creating empty file: {filepath}")
     else:
         logging.info(f"{filename} is already exists")
-
