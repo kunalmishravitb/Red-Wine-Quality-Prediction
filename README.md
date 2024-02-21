@@ -7,12 +7,14 @@ We utilize a dataset containing various features related to red wine samples. Ea
 
 ## About Dataset - Taken from Kaggle
 **Context:**
+
 The two datasets are related to red and white variants of the Portuguese "Vinho Verde" wine.
 
 These datasets can be viewed as classification or regression tasks. The classes are ordered and not balanced (e.g. there are much more normal wines than excellent or poor ones).
 
 
 **Content:**
+
 Input variables (based on physicochemical tests):
 1. fixed acidity
 2. volatile acidity
