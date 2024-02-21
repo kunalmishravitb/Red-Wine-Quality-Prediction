@@ -23,4 +23,15 @@ class DataTransformationConfig:
     data_path: Path
 
 
+@dataclass(frozen=True) # frozen=True means it will not take any other variable here
+class ModelTrainerConfig:
+    root_dir: Path # loading data from config.yaml
+    train_data_path: Path # loading data from config.yaml
+    test_data_path: Path # loading data from config.yaml
+    model_name: str # loading data from config.yaml
+    alpha: float # loading data from params.yaml
+    l1_ratio: float # loading data from params.yaml
+    target_column: str # loading data from schema.yaml
+
+
 
